@@ -1,12 +1,10 @@
-/* Body */
 body {
-    background-color: #ffffff !important;
+    background-color: #ffffff ;
   }
-  
-  /* Navigation & Footer Background */
+
   .nav_bg,
   .footer_bg {
-    background-color: #1d1e56;
+    background-color: #1D274A;
     width: 100vw;
     margin: 0;
     position: fixed;
@@ -23,9 +21,9 @@ body {
     padding-top: 20px;
   }
   
-  /* Navigation Items */
+
   .nav_item {
-    font-family: "Inter", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 500;
     color: white;

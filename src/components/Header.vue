@@ -26,21 +26,16 @@ export default {
         </button>
 
         <!-- Navigation -->
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <div class="collapse navbar-collapse justify-content-end mr-5" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <RouterLink class="nav-link nav_item" to="/">Accueil</RouterLink>
                 </li>
                 <li class="nav-item">
-                    <RouterLink class="nav-link nav_item" to="/Catalogue">Catalogue</RouterLink>
+                    <RouterLink class="nav-link nav_item" to="/APropos">A propos</RouterLink>
                 </li>
                 <li class="nav-item">
                     <RouterLink class="nav-link nav_item" to="/Personnalisation">Personnalisation</RouterLink>
-                </li>
-                <li class="nav-item">
-                    <RouterLink class="nav-link nav_item" to="/Panier">
-                        <i class="fa fa-shopping-cart"></i>
-                    </RouterLink>
                 </li>
                 <li class="nav-item">
                     <RouterLink class="nav-link nav_item" to="/Login">
